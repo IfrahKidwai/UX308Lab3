@@ -18,21 +18,16 @@ if (numericgrade >=90){
 console.log(`${numericgrade} numericgrade is ${lettergrade} lettergrade`)
 /*/
 
-function nGrade (numericgrade){
-    if (numericgrade >=90){
-        return("A+");
-    } else if (numericgrade >=80){
-        return("A");
-    }else if (numericgrade >=70){
-        return("B");
-    }else if (numericgrade >=60){
-        return("C");
-    }else if (numericgrade >=50){
-        return("D");
-    }else if (numericgrade <50){
-        return("F");
+
+function clothing (temp, relHumidity){
+    if (temp > 30 && relHumidity == 100){
+        return("Rain Jacket");
     }
+   if (temp < 5 && relHumidity < 20){
+        return("Winter Coat");
+    }
+  
 }
-console.log(nGrade(68));
-console.log(nGrade(98));
-console.log(nGrade(30));
+
+console.log(clothing(33, 100));
+console.log(clothing(2, 15));

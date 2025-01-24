@@ -8,11 +8,11 @@ console.log(`${kilometers} kilometers is ${miles} miles`);
 /*/
 
 
-function kilometerstomiles (kiloinput){
-    let miles = kiloinput * 0.621371;
-    return miles;
+function meterstoyards (metersinput){
+    let yards = metersinput * 1.09361;
+    return yards;
 }
 
-console.log(kilometerstomiles(6));
-console.log(kilometerstomiles(2));
-console.log(kilometerstomiles(8));
+console.log(meterstoyards(6));
+console.log(meterstoyards(2));
+console.log(meterstoyards(8));

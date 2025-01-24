@@ -8,7 +8,7 @@ let volume = Math.PI*radius**2*height
 
 console.log(`the volume of a cylinder with the radius ${radius} and the height ${height} is ${volume}`);
 /*/
-
+/*/
 function cylinderVol (radius, height){
     let volCylinder = Math.PI*radius**2*height;
     return volCylinder;
@@ -16,3 +16,13 @@ function cylinderVol (radius, height){
 console.log(cylinderVol(76, 45));
 console.log(cylinderVol(56, 67));
 console.log(cylinderVol(24, 33));
+/*/
+
+function cubeVol (edge){
+    let volCube = edge **3;
+    return volCube;
+}
+
+console.log(cubeVol(22));
+console.log(cubeVol(15));
+console.log(cubeVol(33));
